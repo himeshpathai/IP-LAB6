@@ -1,0 +1,39 @@
+.admissions-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section h2 {
+    background-color:  rgb(255, 221, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .section ul li {
+    margin: 10px 0;
+  }
+  
+  .section ul li a {
+    color: #004080;
+    text-decoration: none;
+  }
+  
+  .section ul li a:hover {
+    text-decoration: underline;
+  }
+  
